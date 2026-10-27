@@ -18,7 +18,7 @@ def main():
     pen.pensize(2)
 
     colours = ["#ff6b6b", "#ffb86b", "#ffe66d", "#6be3a2", "#54d6eb", "#8ba7ff", "#cf94ff"]
-    patterns = [(-315, draw_square), (0, draw_triangle), (315, draw_star)]
+    patterns = [(0, draw_square)]
 
     for pattern_number, (center_x, draw_shape) in enumerate(patterns):
         for layer in range(15):
