@@ -7,18 +7,6 @@ def draw_square(pen, length):
         pen.right(90)
 
 
-def draw_triangle(pen, length):
-    for _ in range(3):
-        pen.forward(length)
-        pen.left(120)
-
-
-def draw_star(pen, length):
-    for _ in range(5):
-        pen.forward(length)
-        pen.right(144)
-
-
 def main():
     screen = turtle.Screen()
     screen.setup(width=1100, height=700)
